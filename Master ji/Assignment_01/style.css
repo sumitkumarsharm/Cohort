@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+:root {
+    --base-color: #fff;
+    --text-color: #000;
+    --primary-color: #242a39;
+    --base-varient: #88898b6b;
+    --secondry-Color: #fff;
+    --border-color: #232222;
+
+}
+
+.darkMode {
+    --base-color: #000000;
+    --text-color: #f7f4f4;
+    --primary-color: #fff;
+    --base-varient: #dadbdf74;
+    --secondry-Color: #121111;
+    --border-color: #353434;
+}
+
+
+.Root {
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--base-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+#switch-Thems {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--base-varient);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 2%;
+    left: 2%;
+
+}
+
+#switch-Thems svg {
+    fill: var(--primary-color);
+    cursor: pointer;
+
+}
+
+#switch-Thems svg:last-child {
+    display: none;
+}
+
+.darkMode #switch-Thems svg:first-child {
+    display: none;
+}
+
+.darkMode #switch-Thems svg:last-child {
+    display: block;
+}
+
+
+.Root h1 {
+    font-size: 60px;
+    /* text-align: center; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+}
+
+.Root .QuotesContainer {
+    width: 60%;
+    min-height: 40vh;
+    padding: 90px;
+    margin-inline: auto;
+    border-radius: 10px;
+    background-color: var(--secondry-Color);
+    border: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Root .QuotesContainer .content {
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    text-align: center;
+    padding: 20px;
+}
+
+.Root .QuotesContainer .Author {
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    text-align: center;
+    padding: 20px;
+    align-self: flex-end;
+}
+
+.Root .ShareNextContainer {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.Root .ShareNextContainer .twitter {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: var(--primary-color);
+    cursor: pointer;
+    background-color: var(--base-varient);
+}
+
+.Root .ShareNextContainer button {
+    padding: 8px 10px;
+    font-size: 20px;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--secondry-Color);
+    border-radius: 10px;
+    cursor: pointer;
+}
