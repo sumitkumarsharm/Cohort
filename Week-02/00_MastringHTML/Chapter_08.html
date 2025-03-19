@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Chapter 08
+   1. **Create a simple webpage with the following sections:**
+    - Header with a title and navigation menu.
+    - Main content with a section and an article.
+    - Sidebar using `<aside>`  for related links.
+    - Footer with copyright information.
+2. **Use the **`**aria-label**` ** attribute to improve accessibility in your navigation menu.**
+3. **Create a blog post layout using semantic elements such as **`**<article>**` **, **`**<header>**` **, and **`**<footer>**` **.**
+<header>
+    <h1>My Simple Webpage</h1>
+</header>
+-->
+
+    <!-- Navigation Menu with aria-label -->
+    <nav aria-label="Main Navigation">
+        <a href="#">Home</a>
+        <a href="#">Blog</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-- Main Content Section -->
+    <main>
+        <section>
+            <h2>Welcome to My Website</h2>
+            <p>This is a simple webpage layout using semantic HTML elements.</p>
+
+            <!-- Blog Post Layout -->
+            <article>
+                <header>
+                    <h3>My First Blog Post</h3>
+                    <p><small>Published on March 19, 2025</small></p>
+                </header>
+                <p>This is the content of my first blog post. Semantic HTML helps create well-structured webpages.</p>
+                <footer>
+                    <p>Author: John Doe</p>
+                </footer>
+            </article>
+
+            <article>
+                <header>
+                    <h3>Another Interesting Post</h3>
+                    <p><small>Published on March 18, 2025</small></p>
+                </header>
+                <p>Using semantic HTML tags like &lt;article&gt;, &lt;section&gt;, and &lt;header&gt; improves
+                    accessibility
+                    and SEO.</p>
+                <footer>
+                    <p>Author: Jane Doe</p>
+                </footer>
+            </article>
+        </section>
+
+        <!-- Sidebar Section -->
+        <aside>
+            <h3>Related Links</h3>
+            <ul>
+                <li><a href="#">HTML5 Guide</a></li>
+                <li><a href="#">CSS Basics</a></li>
+                <li><a href="#">Web Accessibility Tips</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 My Simple Webpage. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

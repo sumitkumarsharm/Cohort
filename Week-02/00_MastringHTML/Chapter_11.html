@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--  Chapter 11
+      1. **Create a form with the following fields:**
+    - Email (required)
+    - Date of birth (date picker)
+    - Favorite color (color picker)
+2. **Embed a video with a poster image and controls.**
+3. **Draw a rectangle using the **`**<canvas>**` ** element and JavaScript. If you are total fresher, ignore this task**
+  
+    -->
+    <h1>Form, Video, and Canvas Demo</h1>
+
+    <!-- Form -->
+    <form>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+
+        <label for="color">Favorite Color:</label>
+        <input type="color" id="color" name="color">
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Video Embed -->
+    <h2>Video with Poster Image</h2>
+    <video width="600" controls poster="poster.jpg">
+        <source src="video.mp4" type="video/mp4">
+        <source src="video.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Canvas Drawing -->
+    <h2>Canvas Rectangle</h2>
+    <canvas id="myCanvas" width="300" height="150"></canvas>
+
+</body>
+
+</html>
