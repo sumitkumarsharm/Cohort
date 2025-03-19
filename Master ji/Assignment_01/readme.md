@@ -22,6 +22,19 @@ The Random Quotes Generator is a simple and useful application that provides use
 - JavaScript
 - API : Quotes API
 
+## Project Image
+
+<!-- uplaod iamge -->
+
+![image](./Assets/Screenshot%202025-03-19%20093118.png)
+
+<!-- Responsive -->
+## Responsive
+
+![image](./Assets/responsive%20.png)
+
+![image](./Assets/share.png)
+
 ## Preview of the App
 
 - [App Link](https://random-quotes-generator-r2eirak35.vercel.app)
