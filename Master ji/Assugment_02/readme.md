@@ -114,6 +114,7 @@ The application uses the FreeApi to fetch book data. Each request returns:
 ## 📧 Contact
 
 - Email: - sumitkumarsharma2748@gmail.com
-- LinkedIn: - LinkedIn: URL_ADDRESS.linkedin.com/in/sumit-kumar-sharma-00289926b/
 
-- Project Link: - URL_ADDRESS.github.io/BookStore/
+- LinkedIn: - https://www.linkedin.com/in/sumitsharma2748/
+
+- Project Link: - https://chai-aur-cohort.vercel.app/
